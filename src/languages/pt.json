@@ -1,0 +1,7 @@
+{
+    "command": {
+        "ping": {
+            "about": "Comando para retornar o MS."
+        }
+    }
+}
