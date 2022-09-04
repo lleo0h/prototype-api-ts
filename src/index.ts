@@ -1,5 +1,4 @@
 import express, {Express} from "express";
-import bodyParser from "body-parser";
 import {readdirSync} from "fs";
 
 class App {
@@ -10,7 +9,7 @@ class App {
     }
     
     private config(): void {
-        this.app.use(bodyParser.json());
+        this.app.use(express.json())
     }
 
     private routes(): void {
